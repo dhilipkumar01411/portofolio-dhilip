@@ -1,0 +1,96 @@
+.main-body{
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    gap: 65px;
+    margin-left: 55%;
+}
+.name{
+    color: white;
+    margin-left: 11%;
+    font-style: italic;
+    margin-top: -6%;
+}
+.intro{
+    color: aliceblue;
+    margin-top: 3%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.icon{
+    margin-left: 14%;
+    margin-top: 9%;
+    display: flex;
+    gap: 32px;
+}
+.con{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    
+}
+.conhead{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.tools{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.skills{
+    color: aliceblue;
+    font-style: italic;
+    font-size:40px ;
+}
+.about{
+    color: aliceblue;
+
+}
+.details{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.none{
+    list-style-type: none;
+}
+
+.back{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.pro{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+.home-head{
+    color: aliceblue;
+    font-style: italic;
+    
+}
+.video{
+    position: absolute;
+    left: 66%;
+    bottom: 17%;
+    border: 2px solid white;
+}
